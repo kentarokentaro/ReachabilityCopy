@@ -71,8 +71,8 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6N3-ze-All">
-                                <rect key="frame" x="20" y="259" width="560" height="82"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6N3-ze-All">
+                                <rect key="frame" x="16" y="259" width="560" height="82"/>
                                 <string key="text">セルラデータネットワークが利用可能です。
 インターネットトラフィックは、それを介してルーティングされます。
 (Cellular data network is available.
@@ -112,6 +112,15 @@ Internet traffic will be routed through it.)</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="ReachabilityCopy" id="V5A-vs-NU9"/>
+                    <connections>
+                        <outlet property="internetConnectionImageView" destination="nsY-sX-Fwo" id="5YZ-yh-7ei"/>
+                        <outlet property="internetConnectionLabel" destination="gwW-mm-3lg" id="sSd-mB-CV2"/>
+                        <outlet property="internetConnectionTextFieldView" destination="CzD-y9-2pU" id="gnu-li-JJL"/>
+                        <outlet property="remoteHostImageView" destination="VSg-8B-bQG" id="Dt8-po-Xww"/>
+                        <outlet property="remoteHostLabel" destination="GLG-W7-FSc" id="VSb-vA-SQf"/>
+                        <outlet property="remoteHostTextFieldView" destination="Fn3-Y4-B0g" id="WDH-4w-pgz"/>
+                        <outlet property="summaryLabel" destination="6N3-ze-All" id="cOK-pu-kPt"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1363" y="341"/>

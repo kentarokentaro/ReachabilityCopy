@@ -9,6 +9,16 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *summaryLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *remoteHostLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *remoteHostImageView;
+@property (weak, nonatomic) IBOutlet UITextField *remoteHostTextFieldView;
+
+@property (weak, nonatomic) IBOutlet UILabel *internetConnectionLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *internetConnectionImageView;
+@property (weak, nonatomic) IBOutlet UITextField *internetConnectionTextFieldView;
+
 
 @end
 
@@ -16,12 +26,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
