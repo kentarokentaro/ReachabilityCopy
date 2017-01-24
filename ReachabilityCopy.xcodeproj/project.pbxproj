@@ -15,6 +15,7 @@
 		147B48361E371AA400EDC98A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147B48341E371AA400EDC98A /* LaunchScreen.storyboard */; };
 		147B48581E371C3300EDC98A /* infoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 147B48571E371C3300EDC98A /* infoPlist.strings */; };
 		147B485C1E371E4E00EDC98A /* ReachabilityCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 147B485B1E371E4E00EDC98A /* ReachabilityCopy.m */; };
+		147B485E1E372C3C00EDC98A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147B485D1E372C3C00EDC98A /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		147B48591E371C9E00EDC98A /* Reachability-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reachability-Prefix.pch"; sourceTree = "<group>"; };
 		147B485A1E371E4E00EDC98A /* ReachabilityCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityCopy.h; sourceTree = "<group>"; };
 		147B485B1E371E4E00EDC98A /* ReachabilityCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityCopy.m; sourceTree = "<group>"; };
+		147B485D1E372C3C00EDC98A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				147B482F1E371AA400EDC98A /* Main.storyboard */,
 				147B48341E371AA400EDC98A /* LaunchScreen.storyboard */,
 				147B48321E371AA400EDC98A /* Assets.xcassets */,
+				147B485D1E372C3C00EDC98A /* Images.xcassets */,
 				147B48371E371AA400EDC98A /* Info.plist */,
 				147B48571E371C3300EDC98A /* infoPlist.strings */,
 				147B48271E371AA400EDC98A /* main.m */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				147B48361E371AA400EDC98A /* LaunchScreen.storyboard in Resources */,
+				147B485E1E372C3C00EDC98A /* Images.xcassets in Resources */,
 				147B48581E371C3300EDC98A /* infoPlist.strings in Resources */,
 				147B48331E371AA400EDC98A /* Assets.xcassets in Resources */,
 				147B48311E371AA400EDC98A /* Main.storyboard in Resources */,
