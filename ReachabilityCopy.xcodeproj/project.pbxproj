@@ -14,6 +14,7 @@
 		147B48331E371AA400EDC98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147B48321E371AA400EDC98A /* Assets.xcassets */; };
 		147B48361E371AA400EDC98A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147B48341E371AA400EDC98A /* LaunchScreen.storyboard */; };
 		147B48581E371C3300EDC98A /* infoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 147B48571E371C3300EDC98A /* infoPlist.strings */; };
+		147B485C1E371E4E00EDC98A /* ReachabilityCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 147B485B1E371E4E00EDC98A /* ReachabilityCopy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		147B48371E371AA400EDC98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		147B48571E371C3300EDC98A /* infoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = infoPlist.strings; sourceTree = "<group>"; };
 		147B48591E371C9E00EDC98A /* Reachability-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reachability-Prefix.pch"; sourceTree = "<group>"; };
+		147B485A1E371E4E00EDC98A /* ReachabilityCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityCopy.h; sourceTree = "<group>"; };
+		147B485B1E371E4E00EDC98A /* ReachabilityCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityCopy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		147B48251E371AA400EDC98A /* ReachabilityCopy */ = {
 			isa = PBXGroup;
 			children = (
+				147B485A1E371E4E00EDC98A /* ReachabilityCopy.h */,
+				147B485B1E371E4E00EDC98A /* ReachabilityCopy.m */,
 				147B48291E371AA400EDC98A /* AppDelegate.h */,
 				147B482A1E371AA400EDC98A /* AppDelegate.m */,
 				147B482C1E371AA400EDC98A /* ViewController.h */,
@@ -157,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				147B482E1E371AA400EDC98A /* ViewController.m in Sources */,
+				147B485C1E371E4E00EDC98A /* ReachabilityCopy.m in Sources */,
 				147B482B1E371AA400EDC98A /* AppDelegate.m in Sources */,
 				147B48281E371AA400EDC98A /* main.m in Sources */,
 			);
