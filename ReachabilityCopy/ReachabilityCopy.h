@@ -41,6 +41,6 @@ extern NSString *kReachabilityChangedNotification;
 // ステータスを返す（enumで設定した値）
 - (NetworkStatus)currentRechabilityStatus;
 
-- (BOOL)connectionRequiered;
+- (BOOL)connectionRequired;
 
 @end
